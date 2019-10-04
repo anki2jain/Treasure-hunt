@@ -2,6 +2,7 @@ import 'package:fancy_bottom_navigation/fancy_bottom_navigation.dart';
 import 'package:flutter/material.dart';
 import 'package:treasurehunt/map.dart';
 import 'package:treasurehunt/rules.dart';
+import 'package:treasurehunt/testpage.dart';
 
 class Homepage extends StatefulWidget {
   @override
@@ -47,7 +48,10 @@ class _HomepageState extends State<Homepage> {
                 page = rules;
               }
               if (currentPage == 1) {
-                page = map;
+                page = rules;
+              }
+               if (currentPage == 2) {
+               
               }
             });
           },
