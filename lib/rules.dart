@@ -33,7 +33,7 @@ class Rules extends StatelessWidget {
                 children: <Widget>[
                   Container(
                     child: Text(
-                      "All the teams must have 3 members.\n\nOnce registration is done no further changes will be entertained.\n\nEach team must required a smart phone with internet connection\n\nOnly those who qualified prelims will paarticipate in final round\n\nAll the team members will have to adhere to rules & regulations\n\nTeam not adhering to any guidelines will be disqualified\n\nDecision taken by the heads will be final",
+                      "All the teams must have 3 members. \n\nOnce registration is done no further changes will be entertained.\n\nEach team must required a smart phone with internet connection\n\nOnly those who qualified prelims will paarticipate in final round\n\nAll the team members will have to adhere to rules & regulations\n\nTeam not adhering to any guidelines will be disqualified\n\nDecision taken by the heads will be final",
                       style: TextStyle(
                         color: color1,
                         fontFamily: "Theme",
